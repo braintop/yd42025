@@ -1,0 +1,78 @@
+/* 1. ref selector  */
+p {
+    color: red;
+}
+
+a {
+    background-color: coral;
+    color: blue;
+    width: 100px;
+    border-radius: 4px;
+    height: 60px;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+
+
+}
+
+li {
+    color: brown;
+}
+
+/* 2. class selector  */
+.game {
+    color: blue;
+}
+
+.btn {
+    background-color: yellow;
+    color: blue;
+    width: 200px;
+    border-radius: 10px;
+    height: 60px;
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: blue;
+    color: yellow;
+}
+
+/* 3. id #  selector  */
+#myWeight {
+    background-color: blueviolet;
+
+
+}
+
+
+/* combine selector*/
+.list {
+    background-color: black;
+
+
+}
+
+
+.list li {
+    color: wheat;
+}
+
+
+.myDiv {
+    background-color: black;
+
+
+}
+
+
+.myDiv>p {
+    color: yellow;
+}
